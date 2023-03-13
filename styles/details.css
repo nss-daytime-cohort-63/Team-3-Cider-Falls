@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+}
+
+.logo {
+    max-height: 4rem;
+}
+
+.title {
+    text-align: center;
+    margin: 1rem 0 3rem 2rem;
+}
+
+.guests {
+  float: right;
+  display: inline;
+  border: 1px dotted rgb(61, 129, 196);
+  padding: 5em;
+  padding-top: 1em;
+  padding-bottom: 25em;
+  margin-right: 10em;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    padding: 0.5rem 4rem;
+    border: 1px dotted rgb(61, 129, 196);
+}
+
+.contact {
+    text-align: center;
+}
