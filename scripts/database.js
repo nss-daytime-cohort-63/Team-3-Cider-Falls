@@ -2,27 +2,33 @@ let database = {
     sections:[
         {
             id: 1,
-            section: "Northeast"
+            section: "Northeast",
+            attraction: "Chamfort River"
         },
         {
             id: 2,
-            section: "Northern"
+            section: "Northern",
+            attraction: "Lost Wolf Hiking Trail"
         },
         {
             id: 3,
-            section: "Northwest"
+            section: "Northwest",
+            attraction:"Lodge"
         },
         {
             id: 4,
-            section: "Southwest"
+            section: "Southwest",
+            attraction: "Gander River"
         },
         {
             id: 5,
-            section: "Southern"
+            section: "Southern",
+            attraction:"Campgrounds"
         },
         {
             id: 6,
-            section: "Southeast"
+            section: "Southeast",
+            attraction:"Pine Bluff Trails"
         }
     ],
     services:[
@@ -177,14 +183,14 @@ let database = {
 
 
 export const getSections = ( )=>{
-    database.sections.map(sections =>({...sections}))
+    return database.sections.map(sections =>({...sections}))
 }
 export const getServices = ( )=>{
-    database.services.map(services =>({...services}))
+   return database.services.map(services =>({...services}))
 }
 export const getSectionServices = ( )=>{
-    database.sectionServices.map(sectionServices =>({...sectionServices}))
+    return database.sectionServices.map(sectionServices =>({...sectionServices}))
 }
 export const getGuests = ( )=>{
-    database.guests.map(guests =>({...guests}))
+    return database.guests.map(guests =>({...guests}))
 }
