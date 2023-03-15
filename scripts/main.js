@@ -1,5 +1,8 @@
 import { Northeast, ServicesNortheast } from './Northeast.js'
 import { Northern, ServicesNorthern } from './Northern.js'
+import { southEastHtml } from './southeast.js'
+import { southernHtml } from './southern.js'
+
 
 const mainContainer = document.querySelector('#container')
 
@@ -52,12 +55,12 @@ const applicationHTML = `
 
     <section class="detail--column details_section">
         <h2>Southern</h2>
-
+        ${southernHtml()}
     </section>
 
     <section class="detail--column details_section">
         <h2>Southeast</h2>
-
+        ${southEastHtml()}
     </section>
 </article>
 
@@ -67,4 +70,5 @@ const applicationHTML = `
 </article>
 `
 
+  
 mainContainer.innerHTML = applicationHTML

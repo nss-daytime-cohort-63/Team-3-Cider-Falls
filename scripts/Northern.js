@@ -11,27 +11,28 @@ const sectionServices = getSectionServices()
 const services = getServices()
 
 //click event listener
-document.addEventListener('click', (clickEvent) => {
-  const itemClicked = clickEvent.target
-  if (itemClicked.id.startsWith('section3')) {
-    //splits the string apart into an array to have the primery key of an object
-    const [, sectionId] = itemClicked.id.split('--')
-    //find the whole object by iterating
-    for (const guest of guests) {
-      //compare the primary key and display the window alert message
-      if (guest.id === parseInt(sectionId)) {
-        window.alert(`There are ${guest.sectionId} guests in this area`)
-      }
-    }
-  }
-})
+// document.addEventListener('click', (clickEvent) => {
+//   const itemClicked = clickEvent.target
+//   if (itemClicked.id.startsWith('section')) {
+//     //splits the string apart into an array to have the primery key of an object
+//     const [, sectionId] = itemClicked.id.split('--')
+//     //find the whole object by iterating
+//     for (const guest of guests) {
+//       // totalGuests++
+//       //compare the primary key and display the window alert message
+//       if (guest.id === parseInt(sectionId)) {
+//         window.alert(`There are ${guest.sectionId} guests in this area`)
+//       }
+//     }
+//   }
+// })
 
 export const Northern = () => {
   let html = ''
 
   for (const section of sections) {
     if (section.id === 2) {
-      html += `<h1 id="section3--${section.id}">${section.attraction}</h1>`
+      html += `<h1 id="section--${section.id}">${section.attraction}</h1>`
     }
   }
 
