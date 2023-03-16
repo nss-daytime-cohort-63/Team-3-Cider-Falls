@@ -43,17 +43,17 @@ export const Northeast = () => {
 // })
 
 export const ServicesNortheast = () => {
-  let html = '<h4> Park services: '
+  let html = '<ul> '
 
   for (const section of sectionServices) {
     if (section.sectionId === 1) {
       for (const service of services) {
         if (section.serviceId === service.id) {
-          html = html + ' ' + service.service
+          html +=`<li>  ${service.service}</li>`
         }
       }
     }
   }
-  html += '</h4>'
+  html += '</ul>'
   return html
 }
