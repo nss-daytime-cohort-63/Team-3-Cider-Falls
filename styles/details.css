@@ -1,5 +1,10 @@
 .header {
     display: flex;
+    width: fit-content;
+    margin-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 1rem;
+    border: 1px outset rgb(171, 250, 97);
 }
 
 .logo {
@@ -14,7 +19,8 @@
 .guests {
   float: right;
   display: inline;
-  border: 1px dotted rgb(61, 129, 196);
+  border: 1px dotted rgb(171, 250, 97);
+  background-color: rgb(59, 117, 0);
   padding: 5em;
   padding-top: 1em;
   padding-bottom: 25em;
@@ -24,15 +30,24 @@
 .details {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1rem;
 }
 
 .detail--column {
     flex-basis: 24%;
+    background-color: rgb(59, 117, 0);
+    flex-wrap: wrap;
     margin: 0 2rem;
     padding: 0.5rem 4rem;
-    border: 1px dotted rgb(61, 129, 196);
+    border: 1px dotted rgb(171, 250, 97);
 }
 
 .contact {
-    text-align: center;
+    text-align: start;
+    border: 1px outset rgb(171, 250, 97);
+    background-color: rgb(59, 117, 0);
+    width: fit-content;
+    padding: 1rem;
+    justify-content: center;
 }
+
