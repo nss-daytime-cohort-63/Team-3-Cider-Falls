@@ -26,21 +26,11 @@ const applicationHTML = `
         
             <h1 class="title">Cider Falls</h1>
         </header>
-
-<article class="services">
-${Services()}
-</article>
-
-<aside class="guests">Guests</aside>
-
-</article>
-
-<article class="details">
-    <section class="detail--column details_section">
-        <h2>Northeast</h2>
-        ${northEastHtml()}
-<div class="marquee">Park Services ${serviceList()}</div>
-<aside class="guests">Guests  ${guestList()}</aside>
+        <div class="whatever">
+        <div class="headTwo"><h2>Park Services</h2></div>
+<div class="marquee">${serviceList()}</div>
+</div>
+<aside class="guests"><h2>Guests</h2>  ${guestList()}</aside>
 
 
 
@@ -79,6 +69,9 @@ ${Services()}
 <section class="footer">
 <article class="contact">
     <h2>Contact Info</h2>
+        <div>Phone: (605)-475-6968</div>
+        <div>Email: CiderFalls@nebraska.gov</div> 
+        <div>Mailing Address: 1234 Cider Falls Ln, Cider Falls City, NE, (zipcode)</div>     
 </article>
 </section>
 `
