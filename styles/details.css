@@ -1,38 +1,97 @@
+#container {
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    justify-content: center; */
+}
+
 .header {
+    /* display: flex;
+    width: fit-content;
+    margin-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 1rem; */
+    margin-bottom: 1rem;
+    border: 1px outset rgb(209, 255, 165);
+}
+
+.marquee {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    padding: 2em;
+    justify-content: space-between;
+    border: 1px outset rgb(209, 255, 165);
+    background-color: rgb(59, 117, 0);
+    /* margin-bottom: 1rem;
+    display: grid; */
 }
 
 .logo {
-    max-height: 4rem;
+    /* max-height: 4rem; */
 }
 
 .title {
-    text-align: center;
-    margin: 1rem 0 3rem 2rem;
+    /* text-align: center;
+    margin: 1rem 0 3rem 2rem; */
 }
 
 .guests {
   float: right;
-  display: inline;
-  border: 1px dotted rgb(61, 129, 196);
-  padding: 5em;
+  /* display: inline; */
+  border: 1px dotted rgb(209, 255, 165);
+  background-color: rgb(59, 117, 0);
+  /* padding: 5em;
   padding-top: 1em;
   padding-bottom: 25em;
   margin-right: 10em;
+  height: 6rem; */
 }
 
 .details {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: stretch;
+    /* flex-grow: 2; */
+    /* margin-bottom: 1rem; */
 }
 
 .detail--column {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* margin-left: 1rem; */
+    height: 15rem;
+    margin-bottom: 1rem;
     flex-basis: 24%;
-    margin: 0 2rem;
-    padding: 0.5rem 4rem;
-    border: 1px dotted rgb(61, 129, 196);
+    background-color: rgb(59, 117, 0);
+    /* margin: 0 2rem; */
+    /* padding: 0.5rem 4rem; */
+    border: 1px dotted rgb(209, 255, 165);
+}
+
+#section--5, #section1--1, #section--2, #section--3, #section--4, #section--6 {
+    margin-left: 1rem;
+}
+
+.footer {
+    display: flex;
+    /* justify-content: baseline; */
+    justify-content: center;
 }
 
 .contact {
-    text-align: center;
+    /* display: flex; */
+    /* align-self: center; */
+    /* justify-content: center; */
+    border: 1px outset rgb(209, 255, 165);
+    background-color: rgb(59, 117, 0);
+    width: fit-content;
+    /* padding: 1rem; */
+}
+
+h2 {
+    
 }
