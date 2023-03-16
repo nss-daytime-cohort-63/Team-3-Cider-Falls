@@ -5,11 +5,11 @@ const guests = getGuests()
 
 
 export const serviceList =()=>{
-    let html="<ul>"
+    let html=""
     for (let service of services){
-        html+= `<li id="service--${service.id}">${service.service}</li>`
+        html+= `<div id="service--${service.id}">${service.service}</div>`
     }
-    html+="</ul>"
+    // html+=""
  return html
 }
 
