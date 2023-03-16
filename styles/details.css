@@ -11,6 +11,13 @@
     margin: 1rem 0 3rem 2rem;
 }
 
+.services {
+    display: inline-flex;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+
 .guests {
   float: right;
   display: inline;
