@@ -40,18 +40,18 @@ export const Northern = () => {
   return html
 }
 
-export const ServicesNorthern = () => {
-  let html = '<h4> Park services: '
+// export const ServicesNorthern = () => {
+//   let html = '<h4> Park services: '
 
-  for (const section of sectionServices) {
-    if (section.sectionId === 2) {
-      for (const service of services) {
-        if (section.serviceId === service.id) {
-          html = html + ' ' + service.service
-        }
-      }
-    }
-  }
-  html += '</h4>'
-  return html
-}
+//   for (const section of sectionServices) {
+//     if (section.sectionId === 2) {
+//       for (const service of services) {
+//         if (section.serviceId === service.id) {
+//           html = html + ' ' + service.service
+//         }
+//       }
+//     }
+//   }
+//   html += '</h4>'
+//   return html
+// }
