@@ -34,9 +34,8 @@ export const northEastHtml = () => {
   return html
 }
 
-export const ServicesNortheast = () => {
+// export const Northeast = () => {
   // let html = 'Park services: '
-
   // for (const section of sectionServices) {
   //   if (section.sectionId === 1) {
   //     for (const service of services) {
@@ -48,4 +47,4 @@ export const ServicesNortheast = () => {
   // }
   // html += ''
   // return html
-}
+// }

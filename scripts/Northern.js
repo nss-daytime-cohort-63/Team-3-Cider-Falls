@@ -9,10 +9,6 @@ const sections = getSections()
 const sectionServices = getSectionServices()
 const services = getServices()
 
-
-
-
-
 export const northernHtml = () => {
   let html = '<section'
   for (let section of sections) {
