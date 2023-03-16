@@ -1,8 +1,9 @@
 import { Northeast, ServicesNortheast } from './Northeast.js'
-import { Northern, ServicesNorthern } from './Northern.js'
+import { Northern,  } from './Northern.js'//ServicesNorthern
 import { southEastHtml } from './southeast.js'
 import { southernHtml } from './southern.js'
-
+import { } from './eventHandler.js'
+import { guestList, serviceList } from './lists.js'
 
 const mainContainer = document.querySelector('#container')
 
@@ -11,30 +12,20 @@ const mainContainer = document.querySelector('#container')
 }
 const applicationHTML = `
         <header class="header">
+        
             <h1 class="title">Cider Falls</h1>
         </header>
-
-<aside class="guests">Guests</aside>
-
-
-<article class="details">
-    <section class="detail--column details_section">
-        ${ServicesNortheast()}
-    </section>
-    <section class="detail--column details_section">
-
-        ${ServicesNorthern()}
-    </section>
-
-    <section class="detail--column details_section">
+<div class="marquee">Park Services ${serviceList()}</div>
+<aside class="guests">Guests  ${guestList()}</aside>
 
 
-    </section>
-</article>
+
+
 
 <article class="details">
     <section class="detail--column details_section">
         ${Northeast()}
+        ${ServicesNortheast()}
     </section>
     <section class="detail--column details_section">
 

@@ -30,4 +30,33 @@ document.addEventListener('click', (clickEvent) => {
     }
     
   })
-  
+
+
+  document.addEventListener('click', (clickEvent)=>{
+    //get selector id of service 
+    const clickedItem = clickEvent.target
+    const serviceName = clickEvent.target.innerText
+
+    if(clickedItem.id.startsWith("service")){//specify id of service
+
+      const [,serviceID] =clickedItem.id.split("--")
+      let sectServHtml =""
+      for (let sect of sectionServices){
+        if(parseInt(serviceID) === sect.serviceId){
+          for (let section of sections){
+            if (sect.sectionId===section.id){
+              if (sectServHtml.length === 0){
+              sectServHtml += `${serviceName} is available at the ${section.attraction}`
+              }
+              else
+              {
+                sectServHtml+=`, and the ${section.attraction}`
+              }
+            }
+          }
+        } 
+      }
+      window.alert(sectServHtml)
+    }
+
+  })
