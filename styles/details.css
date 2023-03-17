@@ -1,8 +1,8 @@
-#container {
-    /* display: flex; */
-    /* flex-wrap: wrap;
-    justify-content: center; */
-}
+/* #container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+} */
 
 .header {
     display: flex;
@@ -54,14 +54,21 @@
     display: grid; */
 }
 
-.logo {
-    /* max-height: 4rem; */
+/* .logo {
+    max-height: 4rem; 
+} */
+
+/* .title {
+    text-align: center;
+    margin: 1rem 0 3rem 2rem;
+} */
+
+.services {
+    display: inline-flex;
+    padding-bottom: 1em;
+    text-align: center;
 }
 
-.title {
-    /* text-align: center;
-    margin: 1rem 0 3rem 2rem; */
-}
 
 .guests {
   float: right;
@@ -102,7 +109,7 @@
     border: 1px dotted rgb(209, 255, 165);
 }
 
-#section--5, #section1--1, #section--2, #section--3, #section--4, #section--6 {
+#section--5, #section--1, #section--2, #section--3, #section--4, #section--6 {
     margin-left: 1rem;
 }
 
