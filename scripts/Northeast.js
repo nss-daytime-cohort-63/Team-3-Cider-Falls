@@ -34,17 +34,3 @@ export const northEastHtml = () => {
   return html
 }
 
-// export const Northeast = () => {
-  // let html = 'Park services: '
-  // for (const section of sectionServices) {
-  //   if (section.sectionId === 1) {
-  //     for (const service of services) {
-  //       if (section.serviceId === service.id) {
-  //         html = html + ' ' +  service.service
-  //       }
-  //     }
-  //   }
-  // }
-  // html += ''
-  // return html
-// }
