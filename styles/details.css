@@ -9,27 +9,31 @@
     width: fit-content;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
     padding-right: 3rem;
     padding-left: 3rem;
-    /* margin-bottom: 1rem; */
     margin-bottom: 1rem;
     border: 1px outset rgb(209, 255, 165);
+    border-width: 1rem;
 }
 
 .whatever {
     display: flex;
     border: 1px outset rgb(209, 255, 165);
     background-color: rgb(59, 117, 0);
+    border-width: .25rem;
     flex-direction: column;
-    margin: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin: 2rem;
+    width: 79%;
 }
 
 .headTwo {
     display: flex;
     justify-content: center;
     font-family: "Patua One", serif;
-    /* letter-spacing: 2px; */
+    padding-bottom: 0em;
 }
 
 .marquee {
@@ -39,19 +43,9 @@
     margin-bottom: 1rem;
     flex-wrap: wrap;
     padding: 1em;
+    padding-top: 0em;
     justify-content: space-between;
-    /* display: flex;
-    font-family: "Patua One", serif;
-  letter-spacing: 2px;
-    flex-direction: row;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
-    padding: 2em;
-    justify-content: space-between;
-    border: 1px outset rgb(209, 255, 165);
-    background-color: rgb(59, 117, 0); */
-    /* margin-bottom: 1rem;
-    display: grid; */
+
 }
 
 /* .logo {
@@ -73,40 +67,28 @@
 .guests {
   float: right;
   margin-right: 5rem;
-  /* display: inline; */
   border: 1px dotted rgb(209, 255, 165);
   background-color: rgb(59, 117, 0);
-  /* margin-left: .5em; */
+  border-width: .25rem;
   padding: 1em;
   padding-top: 1em;
   padding-right: 2em;
-  /* padding-bottom: 25em; */
-  /* margin-right: 10em; */
-  /* height: 6rem; */
 }
 
 .details {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: stretch;
-    /* flex-grow: 2; */
-    /* margin-bottom: 1rem; */
 }
 
 .detail--column {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    /* align-items: center; */
-    /* margin-left: 1rem; */
     height: 15rem;
     margin-bottom: 1rem;
+    padding-bottom: .75rem;
     flex-basis: 24%;
     background-color: rgb(59, 117, 0);
-    /* margin: 0 2rem; */
-    /* padding: 0.5rem 4rem; */
-    border: 1px dotted rgb(209, 255, 165);
+    border: 1px inset rgb(209, 255, 165);
+    border-width: .25rem;
 }
 
 #section--5, #section--1, #section--2, #section--3, #section--4, #section--6 {
@@ -115,20 +97,16 @@
 
 .footer {
     display: flex;
-    /* justify-content: baseline; */
     justify-content: center;
 }
 
 .contact {
-    /* display: flex; */
-    /* align-self: center; */
-    /* justify-content: center; */
-    /* align-content: center; */
     padding: 2rem;
+    padding-top: 1rem;
     flex-direction: column;
     border: 1px outset rgb(209, 255, 165);
     background-color: rgb(59, 117, 0);
+    border-width: .25rem;
     width: fit-content;
-    /* padding: 1rem; */
 }
 
